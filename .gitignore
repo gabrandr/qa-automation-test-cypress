@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+.DS_Store
+
+E2E/node_modules/
+API/node_modules/
+
+E2E/cypress/videos/
+E2E/cypress/screenshots/
+API/cypress/videos/
+API/cypress/screenshots/
