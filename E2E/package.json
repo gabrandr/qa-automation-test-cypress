@@ -1,0 +1,23 @@
+{
+  "name": "e2e-saucedemo-cypress",
+  "version": "1.0.0",
+  "description": "E2E automation test for saucedemo website using cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run"
+  },
+  "keywords": [
+    "qa",
+    "automation",
+    "cypress",
+    "e2e"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^15.13.0"
+  }
+}
