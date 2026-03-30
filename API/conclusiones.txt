@@ -1,0 +1,10 @@
+Hallazgos y conclusiones API:
+
+- Se implemento un flujo CRUD sobre el recurso user de Petstore utilizando Cypress y cy.request.
+- Se generaron datos unicos por ejecucion para reducir conflictos en un ambiente compartido y publico.
+- Se definio un caso por cada requisito importante del enunciado para que la cobertura quede clara en el reporte HTML.
+- Se agrego una validacion adicional posterior al delete para comprobar que el recurso ya no esta disponible.
+- El uso de helpers pequenos permitio reutilizar pasos comunes sin perder claridad en la lectura de la spec.
+
+Conclusion general:
+La solucion cubre los pasos solicitados de creacion, consulta, actualizacion, consulta posterior y eliminacion del usuario, manteniendo independencia entre pruebas y generando evidencia HTML separada para el modulo API.

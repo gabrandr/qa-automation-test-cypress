@@ -1,0 +1,10 @@
+Hallazgos y conclusiones E2E:
+
+- SauceDemo ofrece un flujo estable para automatizacion y dispone de selectores orientados a testing mediante data-test.
+- Se implemento un caso por cada requisito importante del ejercicio para que la cobertura quede visible en el reporte HTML.
+- Cada prueba es independiente y prepara sus propias precondiciones, lo que mejora la claridad del resultado y reduce acoplamientos entre tests.
+- Se separaron los datos del formulario en una fixture para mantener el flujo principal de la spec mas limpio y facil de leer.
+- El reporter por modulo permite adjuntar evidencia clara del ejercicio E2E sin mezclarla con la parte de API.
+
+Conclusion general:
+La solucion cubre el flujo pedido de autenticacion, seleccion de productos, visualizacion del carrito, checkout y confirmacion final. La estructura adoptada busca equilibrio entre legibilidad, estabilidad y facilidad de revision tecnica.
